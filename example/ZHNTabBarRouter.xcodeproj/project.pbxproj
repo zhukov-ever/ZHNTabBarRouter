@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14642DF41B038ECE00403F86 /* ZHNTabBarRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14642DF31B038ECE00403F86 /* ZHNTabBarRouter.m */; };
+		14642DF71B03913D00403F86 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14642DF61B03913D00403F86 /* FirstVC.m */; };
+		14642DFA1B03916C00403F86 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14642DF91B03916C00403F86 /* SecondVC.m */; };
+		146BB5091B01E7660031AEE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BB5081B01E7660031AEE9 /* main.m */; };
+		146BB50C1B01E7660031AEE9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BB50B1B01E7660031AEE9 /* AppDelegate.m */; };
+		146BB50F1B01E7660031AEE9 /* TabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BB50E1B01E7660031AEE9 /* TabBarVC.m */; };
+		146BB5121B01E7660031AEE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 146BB5101B01E7660031AEE9 /* Main.storyboard */; };
+		146BB5141B01E7660031AEE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146BB5131B01E7660031AEE9 /* Images.xcassets */; };
+		146BB5171B01E7660031AEE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146BB5151B01E7660031AEE9 /* LaunchScreen.xib */; };
+		146BB52F1B01E7AD0031AEE9 /* ZHNBaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BB52E1B01E7AD0031AEE9 /* ZHNBaseSingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14642DF21B038ECE00403F86 /* ZHNTabBarRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNTabBarRouter.h; sourceTree = "<group>"; };
+		14642DF31B038ECE00403F86 /* ZHNTabBarRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNTabBarRouter.m; sourceTree = "<group>"; };
+		14642DF51B03913D00403F86 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
+		14642DF61B03913D00403F86 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
+		14642DF81B03916C00403F86 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		14642DF91B03916C00403F86 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		146BB5031B01E7660031AEE9 /* ZHNTabBarRouter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHNTabBarRouter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		146BB5071B01E7660031AEE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		146BB5081B01E7660031AEE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		146BB50A1B01E7660031AEE9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		146BB50B1B01E7660031AEE9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		146BB50D1B01E7660031AEE9 /* TabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarVC.h; sourceTree = "<group>"; };
+		146BB50E1B01E7660031AEE9 /* TabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarVC.m; sourceTree = "<group>"; };
+		146BB5111B01E7660031AEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		146BB5131B01E7660031AEE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		146BB5161B01E7660031AEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		146BB52D1B01E7AD0031AEE9 /* ZHNBaseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHNBaseSingleton.h; path = ../../ZHNBaseSingleton/ZHNBaseSingleton.h; sourceTree = "<group>"; };
+		146BB52E1B01E7AD0031AEE9 /* ZHNBaseSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHNBaseSingleton.m; path = ../../ZHNBaseSingleton/ZHNBaseSingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		146BB5001B01E7660031AEE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14642DF11B038EBD00403F86 /* ZHNTabBarRouter */ = {
+			isa = PBXGroup;
+			children = (
+				14642DF21B038ECE00403F86 /* ZHNTabBarRouter.h */,
+				14642DF31B038ECE00403F86 /* ZHNTabBarRouter.m */,
+			);
+			name = ZHNTabBarRouter;
+			sourceTree = "<group>";
+		};
+		146BB4FA1B01E7660031AEE9 = {
+			isa = PBXGroup;
+			children = (
+				146BB5051B01E7660031AEE9 /* ZHNTabBarRouter */,
+				146BB5041B01E7660031AEE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		146BB5041B01E7660031AEE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				146BB5031B01E7660031AEE9 /* ZHNTabBarRouter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		146BB5051B01E7660031AEE9 /* ZHNTabBarRouter */ = {
+			isa = PBXGroup;
+			children = (
+				146BB5301B01E8190031AEE9 /* Libs */,
+				146BB5311B01E8230031AEE9 /* Resources */,
+				146BB5321B01E82B0031AEE9 /* Views */,
+				146BB5061B01E7660031AEE9 /* Supporting Files */,
+			);
+			path = ZHNTabBarRouter;
+			sourceTree = "<group>";
+		};
+		146BB5061B01E7660031AEE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				146BB50A1B01E7660031AEE9 /* AppDelegate.h */,
+				146BB50B1B01E7660031AEE9 /* AppDelegate.m */,
+				146BB5071B01E7660031AEE9 /* Info.plist */,
+				146BB5081B01E7660031AEE9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		146BB52C1B01E7970031AEE9 /* ZHNBaseSingleton */ = {
+			isa = PBXGroup;
+			children = (
+				146BB52D1B01E7AD0031AEE9 /* ZHNBaseSingleton.h */,
+				146BB52E1B01E7AD0031AEE9 /* ZHNBaseSingleton.m */,
+			);
+			name = ZHNBaseSingleton;
+			sourceTree = "<group>";
+		};
+		146BB5301B01E8190031AEE9 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				14642DF11B038EBD00403F86 /* ZHNTabBarRouter */,
+				146BB52C1B01E7970031AEE9 /* ZHNBaseSingleton */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		146BB5311B01E8230031AEE9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				146BB5101B01E7660031AEE9 /* Main.storyboard */,
+				146BB5131B01E7660031AEE9 /* Images.xcassets */,
+				146BB5151B01E7660031AEE9 /* LaunchScreen.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		146BB5321B01E82B0031AEE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				146BB50D1B01E7660031AEE9 /* TabBarVC.h */,
+				146BB50E1B01E7660031AEE9 /* TabBarVC.m */,
+				14642DF51B03913D00403F86 /* FirstVC.h */,
+				14642DF61B03913D00403F86 /* FirstVC.m */,
+				14642DF81B03916C00403F86 /* SecondVC.h */,
+				14642DF91B03916C00403F86 /* SecondVC.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		146BB5021B01E7660031AEE9 /* ZHNTabBarRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 146BB5261B01E7660031AEE9 /* Build configuration list for PBXNativeTarget "ZHNTabBarRouter" */;
+			buildPhases = (
+				146BB4FF1B01E7660031AEE9 /* Sources */,
+				146BB5001B01E7660031AEE9 /* Frameworks */,
+				146BB5011B01E7660031AEE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZHNTabBarRouter;
+			productName = ZHNTabBarRouter;
+			productReference = 146BB5031B01E7660031AEE9 /* ZHNTabBarRouter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		146BB4FB1B01E7660031AEE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					146BB5021B01E7660031AEE9 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 146BB4FE1B01E7660031AEE9 /* Build configuration list for PBXProject "ZHNTabBarRouter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 146BB4FA1B01E7660031AEE9;
+			productRefGroup = 146BB5041B01E7660031AEE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				146BB5021B01E7660031AEE9 /* ZHNTabBarRouter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		146BB5011B01E7660031AEE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146BB5121B01E7660031AEE9 /* Main.storyboard in Resources */,
+				146BB5171B01E7660031AEE9 /* LaunchScreen.xib in Resources */,
+				146BB5141B01E7660031AEE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146BB4FF1B01E7660031AEE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				146BB50F1B01E7660031AEE9 /* TabBarVC.m in Sources */,
+				14642DF71B03913D00403F86 /* FirstVC.m in Sources */,
+				146BB50C1B01E7660031AEE9 /* AppDelegate.m in Sources */,
+				146BB5091B01E7660031AEE9 /* main.m in Sources */,
+				14642DFA1B03916C00403F86 /* SecondVC.m in Sources */,
+				146BB52F1B01E7AD0031AEE9 /* ZHNBaseSingleton.m in Sources */,
+				14642DF41B038ECE00403F86 /* ZHNTabBarRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		146BB5101B01E7660031AEE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146BB5111B01E7660031AEE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		146BB5151B01E7660031AEE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				146BB5161B01E7660031AEE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		146BB5241B01E7660031AEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		146BB5251B01E7660031AEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		146BB5271B01E7660031AEE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNTabBarRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		146BB5281B01E7660031AEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZHNTabBarRouter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		146BB4FE1B01E7660031AEE9 /* Build configuration list for PBXProject "ZHNTabBarRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146BB5241B01E7660031AEE9 /* Debug */,
+				146BB5251B01E7660031AEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		146BB5261B01E7660031AEE9 /* Build configuration list for PBXNativeTarget "ZHNTabBarRouter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				146BB5271B01E7660031AEE9 /* Debug */,
+				146BB5281B01E7660031AEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 146BB4FB1B01E7660031AEE9 /* Project object */;
+}

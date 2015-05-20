@@ -2,7 +2,10 @@
 //  ZHNBaseSingleton.m
 //  ZHNBaseSingleton
 //
-//  Created by zhukovever on 8/05/2015.
+//  Created by zhn 
+    
+    [self.navigationController setNavigationBarHidden:YES];
+    [self.navigationController setNavigationBarHidden:NO];on 8/05/2015.
 //  Copyright (c) 2015 home. All rights reserved.
 //
 

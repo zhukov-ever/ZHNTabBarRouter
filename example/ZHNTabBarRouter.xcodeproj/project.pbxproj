@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14642DF41B038ECE00403F86 /* ZHNTabBarRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14642DF31B038ECE00403F86 /* ZHNTabBarRouter.m */; };
 		14642DF71B03913D00403F86 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14642DF61B03913D00403F86 /* FirstVC.m */; };
 		14642DFA1B03916C00403F86 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 14642DF91B03916C00403F86 /* SecondVC.m */; };
 		146BB5091B01E7660031AEE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BB5081B01E7660031AEE9 /* main.m */; };
@@ -17,11 +16,10 @@
 		146BB5141B01E7660031AEE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 146BB5131B01E7660031AEE9 /* Images.xcassets */; };
 		146BB5171B01E7660031AEE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 146BB5151B01E7660031AEE9 /* LaunchScreen.xib */; };
 		146BB52F1B01E7AD0031AEE9 /* ZHNBaseSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 146BB52E1B01E7AD0031AEE9 /* ZHNBaseSingleton.m */; };
+		146DD2AC1B0C7E2F008AF802 /* ZHNTabBarRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 146DD2AB1B0C7E2F008AF802 /* ZHNTabBarRouter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14642DF21B038ECE00403F86 /* ZHNTabBarRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZHNTabBarRouter.h; sourceTree = "<group>"; };
-		14642DF31B038ECE00403F86 /* ZHNTabBarRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZHNTabBarRouter.m; sourceTree = "<group>"; };
 		14642DF51B03913D00403F86 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
 		14642DF61B03913D00403F86 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
 		14642DF81B03916C00403F86 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
@@ -38,6 +36,8 @@
 		146BB5161B01E7660031AEE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		146BB52D1B01E7AD0031AEE9 /* ZHNBaseSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHNBaseSingleton.h; path = ../../ZHNBaseSingleton/ZHNBaseSingleton.h; sourceTree = "<group>"; };
 		146BB52E1B01E7AD0031AEE9 /* ZHNBaseSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHNBaseSingleton.m; path = ../../ZHNBaseSingleton/ZHNBaseSingleton.m; sourceTree = "<group>"; };
+		146DD2AA1B0C7E2F008AF802 /* ZHNTabBarRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZHNTabBarRouter.h; path = ../../ZHNTabBarRouter/ZHNTabBarRouter.h; sourceTree = "<group>"; };
+		146DD2AB1B0C7E2F008AF802 /* ZHNTabBarRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZHNTabBarRouter.m; path = ../../ZHNTabBarRouter/ZHNTabBarRouter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +54,8 @@
 		14642DF11B038EBD00403F86 /* ZHNTabBarRouter */ = {
 			isa = PBXGroup;
 			children = (
-				14642DF21B038ECE00403F86 /* ZHNTabBarRouter.h */,
-				14642DF31B038ECE00403F86 /* ZHNTabBarRouter.m */,
+				146DD2AA1B0C7E2F008AF802 /* ZHNTabBarRouter.h */,
+				146DD2AB1B0C7E2F008AF802 /* ZHNTabBarRouter.m */,
 			);
 			name = ZHNTabBarRouter;
 			sourceTree = "<group>";
@@ -214,8 +214,8 @@
 				146BB50C1B01E7660031AEE9 /* AppDelegate.m in Sources */,
 				146BB5091B01E7660031AEE9 /* main.m in Sources */,
 				14642DFA1B03916C00403F86 /* SecondVC.m in Sources */,
+				146DD2AC1B0C7E2F008AF802 /* ZHNTabBarRouter.m in Sources */,
 				146BB52F1B01E7AD0031AEE9 /* ZHNBaseSingleton.m in Sources */,
-				14642DF41B038ECE00403F86 /* ZHNTabBarRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
